@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Girl Number Counter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            overflow-x: hidden;
+            overflow-y: scroll;
+            word-wrap: break-word;
+        }
+        .codebox {
+            border-radius: 0;
+            border: black solid;
+            background-color: rgb(179, 179, 179);
+            color: rgb(29, 29, 29);
+            width: fit-content;
+        }
+    </style>
+    <script src="cat-girl-counter.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+    <h4>Demo:</h4>
+    <demo>
+
+
+    <div id="counter"></div>
+    <script>
+        console.log("Loaded body script");
+        const placeHolder = document.createElement('cat-girl-counter');
+        document.getElementById("counter").appendChild(placeHolder);
+        placeHolder.count = Math.floor(Math.random() * (100 - 1 + 1)) + 1; // This just randomly generates a number from 1 - 100
+    </script>
+    
+
+</demo><h6>HTML for this demo:</h6><div class="codebox"><pre>
+&lt;!DOCTYPE&nbsp;html&gt;
+&lt;html&nbsp;lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta&nbsp;charset=&quot;UTF&#45;8&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta&nbsp;http&#45;equiv=&quot;X&#45;UA&#45;Compatible&quot;&nbsp;content=&quot;IE=edge&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta&nbsp;name=&quot;viewport&quot;&nbsp;content=&quot;width=device&#45;width,&nbsp;initial&#45;scale=1.0&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Demo&lt;/title&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;script&nbsp;src=&quot;cat&#45;girl&#45;counter.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;id=&quot;counter&quot;&gt;&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;script&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(&quot;Loaded&nbsp;body&nbsp;script&quot;);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;placeHolder&nbsp;=&nbsp;document.createElement(&#39;cat&#45;girl&#45;counter&#39;);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;document.getElementById(&quot;counter&quot;).appendChild(placeHolder);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;placeHolder.count&nbsp;=&nbsp;Math.floor(Math.random()&nbsp;*&nbsp;(100&nbsp;&#45;&nbsp;1&nbsp;+&nbsp;1))&nbsp;+&nbsp;1;&nbsp;&nbsp;//&nbsp;This&nbsp;just&nbsp;randomly&nbsp;generates&nbsp;a&nbsp;number&nbsp;from&nbsp;1&nbsp;-&nbsp;100.
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</pre></div><br>
+<pre>
+To use this put the script tag at the bottom of the head element without any tags like async or defer,
+Like in the example :D!
+</pre>
+<br><br>Downloads: <a href="./cat-girl-counter.js">Unminified development release.</a>&Tab;<a href="./cat-girl-counter.min.js">Minified production release.</a>
+</div><br>The cat girl images are not owned by me they are owned by <a href="./r34/index.html">rule34</a>(18+ content).</body></html>
