@@ -22,7 +22,7 @@ License: MIT Copyright © 2023 SurvExE-Pc (https://github.com/SurvExE-Pc), X-Tag
                 const images = [];
                 const splitInt = int.toString().split('');
                 for (let i = 0;i<splitInt.length;i++) {
-                        images.push(`<img src="./counter-images/${splitInt[i]}.gif" alt="cat girl #${splitInt[i]}"></img>`)
+                        images.push(`<img src="https://ashmi.ga/Cat-Girl-Display/counter-images/${splitInt[i]}.gif" alt="cat girl #${splitInt[i]}"></img>`)
                 }
                 this.innerHTML = "";
                 this.appendChild(document.createElement("div")).innerHTML = images.join('');
