@@ -17,9 +17,9 @@ v1.1: Now we have multi-site compatibility if you can figure out how to use it >
 (()=>{
     // RULE34 AND GELBOORU ARE 18+ SITES AND NOT FOR MINORS
     const catGirlStorageUrls = `https://ashmi.ga/Cat-Girl-Display/counter-images/@.gif
-    https://rule34.xxx/counter/@.gif
-    https://gelbooru.com/counter/@.gif
-    ADD YOUR SITES IN THE FORMAT OF site/*/@.gif where " site/* " is your site with the path`;
+https://rule34.xxx/counter/@.gif
+https://gelbooru.com/counter/@.gif
+ADD YOUR SITES IN THE FORMAT OF site/*/@.gif where " site/* " is your site with the path, and make sure that each url is separated by a new line`;
 
     // Set the site number here: (starts at 1 not 0)
     var Site = 1;
